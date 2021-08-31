@@ -15,6 +15,15 @@
     <v-content>
       <router-view/>
     </v-content>
+    <v-footer app color="primary" dark absolute>
+    <v-spacer></v-spacer>
+    <v-col
+      class="text-center"
+      cols="12"
+    >
+      {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+    </v-col>
+    </v-footer>
   </v-app>
 </template>
 
